@@ -11,7 +11,7 @@ export default async function Home() {
       return error;
     }
   }
-  const data = await fetchData();
+  const data:[] = await fetchData();
   
   return (
     <>
